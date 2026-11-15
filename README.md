@@ -1,3 +1,5 @@
+Maintained fork of [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify). It applies security patches and maintenance fixes on top of upstream. Part of the [Dark Gravity](https://github.com/lgcorzo/rust_CACD_autonomous_factory) factory. License: Apache-2.0.
+
 <p align="center">
   <a href="https://graphify.com"><img src="https://raw.githubusercontent.com/Graphify-Labs/graphify/v8/docs/graphify-logo.png" width="360" height="189" alt="Graphify"/></a>
 </p>
@@ -540,3 +542,10 @@ Building something in the graphify ecosystem? That is encouraged. If your projec
   <a href="https://github.com/sponsors/safishamsi"><img src="https://img.shields.io/badge/sponsor-safishamsi-ea4aaa?logo=github-sponsors" alt="Sponsor"/></a>
   <a href="https://safishamsi.gumroad.com/l/qetvlo"><img src="https://img.shields.io/badge/Book-The%20Memory%20Layer-2ea44f?style=flat&logo=gitbook&logoColor=white" alt="The Memory Layer"/></a>
 </p>
+
+---
+
+### Fork Maintenance & Agent Transparency
+
+- **Changes vs. Upstream:** Security dependency updates, CI/CD workflow fixes, and CodeQL remediation are tracked in the [commit history](https://github.com/lgcorzo/dark-graphify/commits) and [Pull Requests](https://github.com/lgcorzo/dark-graphify/pulls?q=is%3Apr).
+- **Agent Tagging (`[agent]`):** Commits and pull requests generated automatically by agents in the Dark Gravity pipeline are prefixed with `[agent]` to distinguish automated maintenance from manual work.
